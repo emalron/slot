@@ -18,7 +18,7 @@
                             <h6 class="card-subtitle mb-2 text-muted">진행도</h6>
                             <div class="card-text text-center">
                                 <div class="progress mb-2">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="30"></div>
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                             <div class="card-text text-center">
@@ -28,7 +28,9 @@
                                 Your have 💰 <span id="coin">0</span>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <button class="btn btn-primary" id="lever" onclick="setStart(game)">Play game! 💰 <span id="#bet">1</span></button>
+                                <button class="btn btn-primary" id="lever1" onclick="setStart(game, 1)">Play! 💰 <span id="#bet">1</span></button>
+                                <button class="btn btn-primary" id="lever2" onclick="setStart(game, 2)">Play! 💰 <span id="#bet">2</span></button>
+                                <button class="btn btn-primary" id="lever4" onclick="setStart(game, 4)">Play! 💰 <span id="#bet">4</span></button>
                             </div>
                         </div>
                     </div>
